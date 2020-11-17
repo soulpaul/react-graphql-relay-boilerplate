@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "checkJs": false,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "lib": ["esnext.array", "es7", "dom", "dom.iterable", "esnext.asynciterable", "es2017.object"],
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true
+  },
+  "include": ["./**/*", ".eslintrc.js"],
+  "exclude": ["node_modules", "**/*.spec.*", "setupJest.ts"]
+}

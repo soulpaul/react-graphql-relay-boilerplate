@@ -1,0 +1,7 @@
+*.json
+*.graphql.ts
+types/
+node_modules/
+__generated__/
+assets/
+styles/

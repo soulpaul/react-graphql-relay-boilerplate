@@ -1,0 +1,13 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-typescript", "@babel/preset-react"],
+  "plugins": [
+    ["relay", { "artifactDirectory": "./__generated__" }],
+    // plugin-proposal-decorators is only needed if we're using experimental decorators in TypeScript
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-object-rest-spread",
+    ["babel-plugin-styled-components", { "displayName": true }],
+    "react-hot-loader/babel"
+  ]
+}
